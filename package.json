@@ -5,22 +5,18 @@
 	"main": "index.js",
 	"scripts": {
 		"browsersync:reload": "browser-sync reload",
-		"browsersync:start": "browser-sync start --proxy localhost:8080 --files dist",
-		"build": "npm run sass:build; amagaki build",
-		"dev": "npm-run-all --parallel watch:pages start sass:watch browsersync:start",
-		"sass:build": "sass --no-source-map ./src/sass/:./dist/css --style compressed",
-		"sass:watch": "sass --watch --no-source-map ./src/sass/:./dist/css --style compressed",
+		"browsersync:start": "browser-sync start --proxy localhost:8080",
+		"build": "amagaki build",
+		"dev": "npm-run-all --parallel watch:src watch:pages start browsersync:start",
 		"start": "amagaki serve",
-		"watch:src": "nodemon --watch src -e ts,js,sass --exec npm run browsersync:reload",
+		"watch:src": "nodemon --watch src -e js,css --exec npm run browsersync:reload",
 		"watch:pages": "nodemon --watch content --watch views -e njk,yaml --exec npm run browsersync:reload"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"browser-sync": "^2.26.14",
-		"sass": "^1.35.1",
-		"typescript": "^4.3.3"
+		"browser-sync": "^2.26.14"
 	},
 	"devDependencies": {
 		"@amagaki/amagaki": "^1.0.1",

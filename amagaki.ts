@@ -17,24 +17,15 @@ export default (pod: Pod) => {
 			defaultLocale: 'en',
 			locales: ['en'],
 		},
-		staticRoutes: [
-			{
-				path: '/static/css/',
-				staticDir: '/dist/css/',
-			},
-			{
-				path: '/static/images/',
-				staticDir: 'src/static/images/',
-			},
-		],
 	});
-
 	placeholderPlugin.register(pod, {
 		sizes: ['16x9', '1x1', '9x16', '7x3'],
 	});
 
 	const nunjucksPlugin = pod.plugins.get('NunjucksPlugin') as NunjucksPlugin;
+
 	type Urlable = StaticFile | Document | string;
+
 	nunjucksPlugin.addFilter('url', function (object: Urlable) {
 		if (object instanceof StaticFile) {
 			return `${Url.relative(object.url.path, this.ctx.doc)}?fingerprint=${

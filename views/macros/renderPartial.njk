@@ -2,7 +2,7 @@
 
 {% macro renderPartial(partial) %}
     {# Load partial CSS only once per page. #}
-    {% set staticFile = pod.staticFile('/dist/css/partials/' + partial.partial + '.css') %}
+    {% set staticFile = pod.staticFile('/src/static/css/partials/' + partial.partial + '.css') %}
     {% if pod.fileExists(staticFile.podPath)and staticFile.url.path not in _loadedStylesheets %}
         <link rel="stylesheet" href="{{staticFile|url}}">
         {% set _loadedStylesheets = _loadedStylesheets.push(staticFile.url.path) %}

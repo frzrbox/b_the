@@ -9,7 +9,8 @@
         <meta name="description" value="{{doc.fields.description}}">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="{{pod.staticFile('/dist/css/main.css')|url}}">
+        <link rel="stylesheet" href="{{pod.staticFile('/src/static/css/main.css')|url}}">
+        <script src="{{pod.staticFile('/src/static/js/main.js').url.path}}"></script>
     </head>
     <body>
         <div class="main">
@@ -17,3 +18,6 @@
                 {{renderPartial.renderPartial(partial)}}
             {% endfor %}
         </div>
+
+    </body>
+</html>

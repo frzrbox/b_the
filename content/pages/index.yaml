@@ -14,9 +14,9 @@ partials:
         url: https://example.com
         options: []
     image:
-      url: /static/placeholder/16x9.svg?bgColor=FFEFA4
+      url: !pod.staticFile /src/static/images/dog.png
       class: hero__image
 
   - partial: spacer
     options:
-      - medium
+      - external
