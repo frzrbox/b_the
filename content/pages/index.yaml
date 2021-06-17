@@ -1,0 +1,19 @@
+$path: /
+$localization:
+  path: /intl/${doc.locale.id}/
+title: Home
+description: Page description.
+
+partials:
+  - partial: hero
+    subhead: Eyebrow
+    title: Lorem ipsum dolor.
+    body: Line lengths for body text are usually between 40 to 60 characters.
+    buttons:
+      - label: Label
+        url: https://example.com
+        options: []
+
+  - partial: spacer
+    options:
+      - medium
