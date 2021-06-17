@@ -2,11 +2,11 @@
 {% import "/views/macros/asset.njk" as asset %}
 
 <div class="hero {{partial.class}}">
-    <div class="hero__content">
+    <div class="hero__content container">
         {% if partial.title %}
-            <div class="hero__content__title">
+            <h1 class="hero__content__title">
                 {{partial.title}}
-            </div>
+            </h1>
         {% endif %}
         {% if partial.body %}
             <div class="hero__content__body">
@@ -22,5 +22,5 @@
         {% endif %}
     </div>
 
-    {{asset.asset(partial.image.url)}}
+    {{asset.asset(partial.image)}}
 </div>

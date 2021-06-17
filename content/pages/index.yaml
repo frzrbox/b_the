@@ -15,8 +15,24 @@ partials:
         options: []
     image:
       url: !pod.staticFile /src/static/images/dog.png
+      alt_text: A smiling dog
       class: hero__image
 
   - partial: spacer
     options:
       - external
+
+  - partial: product-grid
+    products:
+      - title: Product name Lorem ipsum
+        image:
+          url: /static/placeholder/16x9.svg?bgColor=FFEFA4
+          alt: Product image
+
+  - partial: accordion
+    title: FAQ
+    drawers:
+      - label: Lorem ipsum dolor sit amet.
+        body: Neque porro quisquam est qui dolorem ipsum quia dolor sit...
+      - label: Lorem ipsum dolor sit amet.
+        body: Dolorem ipsum quia dolor aboris nisi ut aliquip ex ea commodo consequat...

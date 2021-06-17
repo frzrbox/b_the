@@ -1,7 +1,50 @@
 :root {
-	--background: orange;
+	--background: #ffffff;
+	--color-primary: #ae7fa5;
+	--color-secondary: #423f3f;
+	--color-type: #3c4043;
+	--gap-small: 12px;
+	--gap-medium: 16px;
+	--gap-large: 24px;
+	--font-main: 'Open Sans', arial, sans-serif;
 }
 
 body {
-	background: blue;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: var(--font-main);
+	color: var(--color-type);
+	background: var(--background);
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.5;
+	max-width: 60ch;
+}
+
+.container {
+	width: 90%;
+	max-width: var(--max-width, 276px);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button {
+	padding: 8px 20px;
+	width: fit-content;
+	display: block;
+	font-size: 24px;
+	font-weight: 700;
+	text-decoration: none;
+	border: 2px solid var(--color-secondary);
+	border-radius: 4px;
+	color: var(--color-type);
+}
+
+@media (min-width: 768px) {
+	.container {
+		--max-width: 1156px;
+	}
 }
