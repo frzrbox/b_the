@@ -11,7 +11,7 @@ import {
 export default (pod: Pod) => {
 	pod.configure({
 		meta: {
-			name: 'Amagaki Starter',
+			name: 'Blinkk Excersise',
 		},
 		localization: {
 			defaultLocale: 'en',
