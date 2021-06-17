@@ -45,4 +45,8 @@ export default (pod: Pod) => {
 		}
 		return `${Url.relative(object, this.ctx.doc)}`;
 	});
+
+	nunjucksPlugin.addFilter('log', function (value: any) {
+		console.log('log', value);
+	});
 };

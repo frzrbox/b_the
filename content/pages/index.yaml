@@ -13,6 +13,9 @@ partials:
       - label: Label
         url: https://example.com
         options: []
+    image:
+      url: /static/placeholder/16x9.svg?bgColor=FFEFA4
+      class: hero__image
 
   - partial: spacer
     options:

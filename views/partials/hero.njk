@@ -1,5 +1,5 @@
-{% import "/views/macros/asset.njk" as asset %}
 {% import "/views/macros/button.njk" as button %}
+{% import "/views/macros/asset.njk" as asset %}
 
 <div class="hero {{partial.class}}">
     <div class="hero__content">
@@ -21,4 +21,6 @@
             </div>
         {% endif %}
     </div>
+
+    {{asset.asset(partial.image)}}
 </div>
