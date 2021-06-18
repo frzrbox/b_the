@@ -89,6 +89,66 @@ partials:
         image:
           url: /static/placeholder/1x1.svg?bgColor=FFEFA4
           alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
 
   - partial: spacer
     options:
