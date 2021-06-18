@@ -32,7 +32,7 @@ p {
 	--spacing-bottom: var(--gap-small);
 
 	margin-top: var(--spacing-top);
-	margin-bottom: var(--spacing-bottom, 0px);
+	margin-bottom: var(--spacing-bottom);
 }
 
 .title--small {
