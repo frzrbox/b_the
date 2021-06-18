@@ -5,9 +5,11 @@
 				<div class="accordion__drawers">
 						{% for item in partial.drawers %}
 								<div class="accordion__drawers__item">
-										<div class="accordion__drawers__item__top" role="button" aria-label="open" aria-controls="drawer-{{loop.index}}" aria-pressed="false" aria-expanded="false" tabindex="0">
+										<div class="accordion__drawers__item__top" role="button" aria-label="open" aria-controls="drawer-{{loop.index}}" tabindex="0">
 												<h3 class="accordion__drawers__item__top__label">{{item.label}}</h3>
-												{# Add icon #}
+												<svg class="accordian__drawers__item__top__arrow" width="20" height="12" viewbox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path d="M18.23 0.23L20 2L10 12L0 2L1.77 0.23L10 8.46L18.23 0.23Z" fill="#5F6368"/>
+												</svg>
 										</div>
 										<p id="drawer-{{loop.index}}" class="accordion__drawers__item__body" role="region" tabindex="-1">
 												{{item.body}}}
