@@ -2,25 +2,28 @@
 {% import "/views/macros/asset.njk" as asset %}
 
 <div class="hero {{partial.class}}">
-    <div class="hero__content">
+    <div class="hero__content container">
+        {% if partial.eyebrow %}
+            <p class="hero__content__eyebrow title--small push--auto">{{partial.eyebrow}}</p>
+        {% endif %}
         {% if partial.title %}
-            <div class="hero__content__title">
+            <h1 class="hero__content__title">
                 {{partial.title}}
-            </div>
+            </h1>
         {% endif %}
         {% if partial.body %}
-            <div class="hero__content__body">
+            <p class="hero__content__body push--auto">
                 {{partial.body}}
-            </div>
+            </p>
         {% endif %}
-        {% if partial.buttons %}
-            <div class="hero__content__buttons">
-                {% for item in partial.buttons %}
-                    {{button.button(item)}}
-                {% endfor %}
-            </div>
+
+        {% if partial.button %}
+            {{button.button(partial.button)}}
         {% endif %}
+
     </div>
 
-    {{asset.asset(partial.image.url)}}
+    {% if partial.image %}
+        {{asset.asset(partial.image)}}
+    {% endif %}
 </div>

@@ -6,17 +6,98 @@ description: Page description.
 
 partials:
   - partial: hero
-    subhead: Eyebrow
+    eyebrow: Eyebrow
     title: Lorem ipsum dolor.
     body: Line lengths for body text are usually between 40 to 60 characters.
-    buttons:
-      - label: Label
-        url: https://example.com
-        options: []
+    button:
+      label: Label
+      url: https://example.com
+      options: []
+      class: hero__content__button push--auto
     image:
       url: !pod.staticFile /src/static/images/dog.png
+      alt_text: A smiling dog
       class: hero__image
 
   - partial: spacer
     options:
       - external
+
+  - partial: product-grid
+    image_settings:
+      height: 120
+      width: 120
+      class: product-grid__item__image
+    products:
+      - title: Product name Lorem ipsum
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+
+  - partial: spacer
+    options:
+      - external
+
+  - partial: accordion
+    title: FAQ
+    drawers:
+      - label: Lorem ipsum dolor sit amet.
+        body: Neque porro quisquam est qui dolorem ipsum quia dolor sit...
+      - label: Lorem ipsum dolor sit amet.
+        body: Dolorem ipsum quia dolor aboris nisi ut aliquip ex ea commodo consequat...
