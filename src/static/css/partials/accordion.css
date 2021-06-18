@@ -1,0 +1,7 @@
+.accordion__drawers__item__body {
+	display: none;
+}
+
+.accordion__drawers__item__body--visible {
+	display: block;
+}

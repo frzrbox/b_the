@@ -1,15 +1,15 @@
 <div class="accordion">
 		<div class="accoridan__inner container">
-				<h2 class="accordian__title">{{partial.title}}</h2>
+				<h2 class="accordion__title">{{partial.title}}</h2>
 
-				<div class="accordian__drawers">
+				<div class="accordion__drawers">
 						{% for item in partial.drawers %}
-								<div class="accordian__drawers__item">
-										<div class="accordian__drawers__item__top" role="button" aria-label="open" aria-controls="drawer-{{loop.index}}" aria-pressed="false" aria-expanded="false" tabindex="0">
-												<h3 class="accordian__drawers__item__top__label">{{item.label}}</h3>
+								<div class="accordion__drawers__item">
+										<div class="accordion__drawers__item__top" role="button" aria-label="open" aria-controls="drawer-{{loop.index}}" aria-pressed="false" aria-expanded="false" tabindex="0">
+												<h3 class="accordion__drawers__item__top__label">{{item.label}}</h3>
 												{# Add icon #}
 										</div>
-										<p id="drawer-{{loop.index}}" class="accordian__drawers__item__body" role="region" tabindex="-1">
+										<p id="drawer-{{loop.index}}" class="accordion__drawers__item__body" role="region" tabindex="-1">
 												{{item.body}}}
 										</div>
 								{% endfor %}
