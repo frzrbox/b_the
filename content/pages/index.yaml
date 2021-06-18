@@ -23,11 +23,75 @@ partials:
       - external
 
   - partial: product-grid
+    image_settings:
+      height: 120
+      width: 120
+      class: product-grid__item__image
     products:
       - title: Product name Lorem ipsum
         image:
-          url: /static/placeholder/16x9.svg?bgColor=FFEFA4
-          alt: Product image
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+      - title: Product name
+        image:
+          url: /static/placeholder/1x1.svg?bgColor=FFEFA4
+          alt_text: Product image
+
+  - partial: spacer
+    options:
+      - external
 
   - partial: accordion
     title: FAQ

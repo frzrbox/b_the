@@ -3,9 +3,12 @@
 	--color-primary: #ae7fa5;
 	--color-secondary: #423f3f;
 	--color-type: #3c4043;
+	--color-scrollbar-thumb: #5f6368;
+	--color-scrollbar-track: #dadce0;
 	--gap-small: 12px;
 	--gap-medium: 16px;
 	--gap-large: 24px;
+	--gap-extra-large: 48px;
 	--font-main: 'Open Sans', arial, sans-serif;
 }
 
