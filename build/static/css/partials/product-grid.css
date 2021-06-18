@@ -11,6 +11,7 @@
 	padding-bottom: var(--scrollbar-top-spacing);
 	/* Firefox scrollbar styles */
 	scrollbar-width: thin;
+	scrollbar-color: var(--color-scrollbar-thumb) var(--color-scrollbar-track);
 }
 
 .product-grid__inner::-webkit-scrollbar {
@@ -34,8 +35,13 @@
 	text-align: center;
 }
 
+/* Keep equal spacing on the side of the grid */
 .product-grid__item:first-of-type {
 	margin-left: var(--total-distance);
+}
+
+.product-grid__item:last-of-type {
+	margin-right: var(--total-distance);
 }
 
 .product-grid__item__image {

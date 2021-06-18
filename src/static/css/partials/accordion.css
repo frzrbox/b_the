@@ -1,10 +1,11 @@
 .accordion {
-	--spacing-internal: 40px;
+	--spacing-internal: 35px;
 	margin-top: var(--spacing-internal);
 	margin-bottom: 260px;
 }
 
 .accoridon__inner {
+	--spacing-internal: 40px;
 	display: grid;
 	grid-gap: var(--spacing-internal);
 }
@@ -28,6 +29,7 @@
 .accordion__drawers__item__top__label {
 	--spacing-top: 0px;
 	--spacing-bottom: 0px;
+	pointer-events: none;
 }
 
 .accordion__drawers__item__top__arrow {
@@ -43,6 +45,7 @@
 
 .accordion__drawers__item__body {
 	--spacing-top: 20px;
+	--spacing-bottom: 0px;
 	display: none;
 }
 
@@ -52,6 +55,7 @@
 
 @media (min-width: 768px) {
 	.accordion {
+		--spacing-internal: 40px;
 		margin-bottom: 0px;
 	}
 
