@@ -49,7 +49,7 @@ p {
 
 .container {
 	width: 90%;
-	max-width: var(--max-width, 276px);
+	max-width: var(--max-width, 768px);
 	margin-left: auto;
 	margin-right: auto;
 }

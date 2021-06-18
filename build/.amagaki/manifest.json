@@ -1,19 +1,19 @@
 {
   "branch": null,
   "commit": null,
-  "built": "Thu Jun 17 2021 22:00:03 GMT-1000 (Hawaii-Aleutian Standard Time)",
+  "built": "Fri Jun 18 2021 00:15:07 GMT-1000 (Hawaii-Aleutian Standard Time)",
   "files": [
     {
       "path": "/index.html",
-      "sha": "c3b237423723304e590ce59852a3d18ef17dc002"
+      "sha": "c387c0bfd926f3590ce54b74eb7ccdd2ecb4f2eb"
     },
     {
       "path": "/static/css/main.css",
-      "sha": "26bbb7b053566f8f5fdfd0f73ed2ca6034d18f1f"
+      "sha": "067ad3e91c57df978bca54bda994d03fb9679f63"
     },
     {
-      "path": "/static/css/partials/accordian.css",
-      "sha": "04223e1428422aee2f3d9ea04c44497e350fb0be"
+      "path": "/static/css/partials/accordion.css",
+      "sha": "f6f527d0bbe1929ac453194ca66f748c36d8efe6"
     },
     {
       "path": "/static/css/partials/hero.css",
@@ -29,7 +29,7 @@
     },
     {
       "path": "/static/js/main.js",
-      "sha": "1b280b80b65627d7b80b5370056a286e7c8b421f"
+      "sha": "db6e86024f7ad846b184501b39e533565173ac51"
     },
     {
       "path": "/static/placeholder/16x9.svg",
