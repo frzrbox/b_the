@@ -1,3 +1,3 @@
 # Blinkk Exercise
 
-[Live Site](https://google.com)
+[Live Site](https://upbeat-bhabha-84bf21.netlify.app/)
