@@ -30,6 +30,8 @@
 	--spacing-top: 0px;
 	--spacing-bottom: 0px;
 	pointer-events: none;
+	font-size: 20px;
+	line-height: 1.4;
 }
 
 .accordion__drawers__item__top__arrow {
