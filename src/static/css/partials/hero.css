@@ -17,7 +17,6 @@
 
 .hero__content__body {
 	--spacing-bottom: var(--gap-large);
-	margin-bottom: var(--spacing-bottom);
 }
 
 .hero__content__button {
@@ -44,6 +43,8 @@
 
 	.hero__content__title {
 		--spacing-bottom: var(--gap-medium);
+		font-size: 56px;
+		letter-spacing: -2px;
 	}
 
 	.hero__content__button {
