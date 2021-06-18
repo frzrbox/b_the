@@ -8,7 +8,6 @@
 }
 
 .hero__content__title {
-	--spacing-bottom: var(--gap-small);
 	font-size: 32px;
 	line-height: 1;
 	letter-spacing: -1px;
@@ -20,10 +19,11 @@
 }
 
 .hero__content__button {
-	--spacing-bottom: 43px;
+	--spacing-bottom: 42px;
 }
 
 .hero__image {
+	display: block;
 	width: 100%;
 	height: 343px;
 	object-fit: cover;
