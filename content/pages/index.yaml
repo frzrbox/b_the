@@ -6,13 +6,14 @@ description: Page description.
 
 partials:
   - partial: hero
-    subhead: Eyebrow
+    eyebrow: Eyebrow
     title: Lorem ipsum dolor.
     body: Line lengths for body text are usually between 40 to 60 characters.
-    buttons:
-      - label: Label
-        url: https://example.com
-        options: []
+    button:
+      label: Label
+      url: https://example.com
+      options: []
+      class: hero__content__button push--auto
     image:
       url: !pod.staticFile /src/static/images/dog.png
       alt_text: A smiling dog

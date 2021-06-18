@@ -27,6 +27,26 @@ p {
 	max-width: 60ch;
 }
 
+:is(h1, h2, h3, h4, h5, p, a) {
+	--spacing-top: 0px;
+	--spacing-bottom: var(--gap-small);
+
+	margin-top: var(--spacing-top);
+	margin-bottom: var(--spacing-bottom, 0px);
+}
+
+.title--small {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 1.43;
+	letter-spacing: 0.25px;
+}
+
+.push--auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .container {
 	width: 90%;
 	max-width: var(--max-width, 276px);

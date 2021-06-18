@@ -3,7 +3,7 @@
 				{% for product in partial.products %}
 						<div class="product-grid__item">
 								<img decoding="async" loading="lazy" src="{{product.image.url}}" class="{{partial.image_settings.class}}" alt="{{product.image.alt_text}}" title="{{product.image.alt_text}}" height="120" width="120">
-								<h3 class="product-grid__item__title">{{product.title}}</h3>
+								<h3 class="product-grid__item__title title--small">{{product.title}}</h3>
 						</div>
 				{% endfor %}
 		</div>
